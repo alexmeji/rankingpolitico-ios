@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13FBB7B2A0CDEFFFE888E0BD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 140BF146E0A609CFDC637B95 /* libPods.a */; };
 		208593D21B524D6E004BFE18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 208593D11B524D6E004BFE18 /* main.m */; };
 		208593D51B524D6E004BFE18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 208593D41B524D6E004BFE18 /* AppDelegate.m */; };
 		208593D81B524D6E004BFE18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 208593D71B524D6E004BFE18 /* ViewController.m */; };
@@ -14,6 +15,57 @@
 		208593DD1B524D6E004BFE18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 208593DC1B524D6E004BFE18 /* Images.xcassets */; };
 		208593E01B524D6E004BFE18 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 208593DE1B524D6E004BFE18 /* LaunchScreen.xib */; };
 		208593EC1B524D6E004BFE18 /* Ranking_PublicoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 208593EB1B524D6E004BFE18 /* Ranking_PublicoTests.m */; };
+		208594051B525484004BFE18 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 208593FA1B525484004BFE18 /* Icon-29.png */; };
+		208594061B525484004BFE18 /* Icon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 208593FB1B525484004BFE18 /* Icon-29@2x.png */; };
+		208594071B525484004BFE18 /* Icon-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 208593FC1B525484004BFE18 /* Icon-29@3x.png */; };
+		208594081B525484004BFE18 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 208593FD1B525484004BFE18 /* Icon-40.png */; };
+		208594091B525484004BFE18 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 208593FE1B525484004BFE18 /* Icon-40@2x.png */; };
+		2085940A1B525484004BFE18 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 208593FF1B525484004BFE18 /* Icon-40@3x.png */; };
+		2085940B1B525484004BFE18 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 208594001B525484004BFE18 /* Icon-60@2x.png */; };
+		2085940C1B525484004BFE18 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 208594011B525484004BFE18 /* Icon-60@3x.png */; };
+		2085940D1B525484004BFE18 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 208594021B525484004BFE18 /* Icon-76.png */; };
+		2085940E1B525484004BFE18 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 208594031B525484004BFE18 /* Icon-76@2x.png */; };
+		2085940F1B525484004BFE18 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 208594041B525484004BFE18 /* iTunesArtwork@2x.png */; };
+		208594111B5256C0004BFE18 /* LogoFull.png in Resources */ = {isa = PBXBuildFile; fileRef = 208594101B5256C0004BFE18 /* LogoFull.png */; };
+		208594131B525743004BFE18 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 208594121B525743004BFE18 /* logo.png */; };
+		208594171B52582E004BFE18 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 208594161B52582E004BFE18 /* HomeViewController.m */; };
+		2085941A1B5258BD004BFE18 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 208594191B5258BD004BFE18 /* MenuViewController.m */; };
+		2085941D1B5258C9004BFE18 /* RankingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2085941C1B5258C9004BFE18 /* RankingViewController.m */; };
+		2085941F1B525960004BFE18 /* fondo_republica_guatemala.png in Resources */ = {isa = PBXBuildFile; fileRef = 2085941E1B525960004BFE18 /* fondo_republica_guatemala.png */; };
+		208594231B525B28004BFE18 /* MenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 208594211B525B28004BFE18 /* MenuCell.m */; };
+		208594241B525B28004BFE18 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 208594221B525B28004BFE18 /* MenuCell.xib */; };
+		208594271B525D66004BFE18 /* ManagerWS.m in Sources */ = {isa = PBXBuildFile; fileRef = 208594261B525D66004BFE18 /* ManagerWS.m */; };
+		2085942A1B525D7C004BFE18 /* RankingWS.m in Sources */ = {isa = PBXBuildFile; fileRef = 208594291B525D7C004BFE18 /* RankingWS.m */; };
+		2085942D1B525E1F004BFE18 /* ListadoPartidosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2085942C1B525E1F004BFE18 /* ListadoPartidosViewController.m */; };
+		208594311B526083004BFE18 /* CandidatoRankingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2085942F1B526083004BFE18 /* CandidatoRankingCell.m */; };
+		208594321B526083004BFE18 /* CandidatoRankingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 208594301B526083004BFE18 /* CandidatoRankingCell.xib */; };
+		208594341B5260B8004BFE18 /* AvatarDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 208594331B5260B8004BFE18 /* AvatarDemo.png */; };
+		208594371B52665D004BFE18 /* PerfilCandidatoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 208594361B52665D004BFE18 /* PerfilCandidatoViewController.m */; };
+		2085943B1B526A56004BFE18 /* HeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 208594391B526A56004BFE18 /* HeaderCell.m */; };
+		2085943C1B526A56004BFE18 /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2085943A1B526A56004BFE18 /* HeaderCell.xib */; };
+		2085943E1B526B1C004BFE18 /* dislike.png in Resources */ = {isa = PBXBuildFile; fileRef = 2085943D1B526B1C004BFE18 /* dislike.png */; };
+		208594401B526B32004BFE18 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 2085943F1B526B32004BFE18 /* like.png */; };
+		208594421B526C87004BFE18 /* likem.png in Resources */ = {isa = PBXBuildFile; fileRef = 208594411B526C87004BFE18 /* likem.png */; };
+		208594461B526D96004BFE18 /* DatosPerfilCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 208594441B526D96004BFE18 /* DatosPerfilCell.m */; };
+		208594471B526D96004BFE18 /* DatosPerfilCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 208594451B526D96004BFE18 /* DatosPerfilCell.xib */; };
+		2085944B1B52885D004BFE18 /* InfoDetallePerfilCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 208594491B52885D004BFE18 /* InfoDetallePerfilCell.m */; };
+		2085944C1B52885D004BFE18 /* InfoDetallePerfilCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2085944A1B52885D004BFE18 /* InfoDetallePerfilCell.xib */; };
+		2085944F1B528A01004BFE18 /* DetallePerfilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2085944E1B528A01004BFE18 /* DetallePerfilViewController.m */; };
+		208594531B528C5D004BFE18 /* DetallePerfilCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 208594511B528C5D004BFE18 /* DetallePerfilCell.m */; };
+		208594541B528C5D004BFE18 /* DetallePerfilCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 208594521B528C5D004BFE18 /* DetallePerfilCell.xib */; };
+		208594571B52B5F4004BFE18 /* PreguntasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 208594561B52B5F4004BFE18 /* PreguntasViewController.m */; };
+		2085945B1B52B7B9004BFE18 /* PreguntasCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 208594591B52B7B9004BFE18 /* PreguntasCell.m */; };
+		2085945C1B52B7B9004BFE18 /* PreguntasCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2085945A1B52B7B9004BFE18 /* PreguntasCell.xib */; };
+		2085945F1B52B921004BFE18 /* PreguntasWS.m in Sources */ = {isa = PBXBuildFile; fileRef = 2085945E1B52B921004BFE18 /* PreguntasWS.m */; };
+		208594661B52BD66004BFE18 /* CandidaturasCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 208594641B52BD66004BFE18 /* CandidaturasCell.m */; };
+		208594671B52BD66004BFE18 /* CandidaturasCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 208594651B52BD66004BFE18 /* CandidaturasCell.xib */; };
+		2085946A1B52BD92004BFE18 /* CandidaturaWS.m in Sources */ = {isa = PBXBuildFile; fileRef = 208594691B52BD92004BFE18 /* CandidaturaWS.m */; };
+		2085946D1B52C023004BFE18 /* CollPArtidosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2085946C1B52C023004BFE18 /* CollPArtidosViewController.m */; };
+		208594711B52C1E9004BFE18 /* PartidoCollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2085946F1B52C1E9004BFE18 /* PartidoCollCell.m */; };
+		208594721B52C1E9004BFE18 /* PartidoCollCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 208594701B52C1E9004BFE18 /* PartidoCollCell.xib */; };
+		208594751B52C52B004BFE18 /* PartidosWS.m in Sources */ = {isa = PBXBuildFile; fileRef = 208594741B52C52B004BFE18 /* PartidosWS.m */; };
+		208594781B52EE95004BFE18 /* OrganizacionesWS.m in Sources */ = {isa = PBXBuildFile; fileRef = 208594771B52EE95004BFE18 /* OrganizacionesWS.m */; };
+		2085947B1B52F51E004BFE18 /* ListaCandidatosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2085947A1B52F51E004BFE18 /* ListaCandidatosViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +79,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		140BF146E0A609CFDC637B95 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		208593CC1B524D6E004BFE18 /* Ranking Publico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ranking Publico.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		208593D01B524D6E004BFE18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		208593D11B524D6E004BFE18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +93,84 @@
 		208593E51B524D6E004BFE18 /* Ranking PublicoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ranking PublicoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		208593EA1B524D6E004BFE18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		208593EB1B524D6E004BFE18 /* Ranking_PublicoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ranking_PublicoTests.m; sourceTree = "<group>"; };
+		208593FA1B525484004BFE18 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
+		208593FB1B525484004BFE18 /* Icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29@2x.png"; sourceTree = "<group>"; };
+		208593FC1B525484004BFE18 /* Icon-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29@3x.png"; sourceTree = "<group>"; };
+		208593FD1B525484004BFE18 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		208593FE1B525484004BFE18 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		208593FF1B525484004BFE18 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		208594001B525484004BFE18 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		208594011B525484004BFE18 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		208594021B525484004BFE18 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		208594031B525484004BFE18 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		208594041B525484004BFE18 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		208594101B5256C0004BFE18 /* LogoFull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoFull.png; sourceTree = "<group>"; };
+		208594121B525743004BFE18 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		208594141B52582E004BFE18 /* Constantes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constantes.h; sourceTree = "<group>"; };
+		208594151B52582E004BFE18 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		208594161B52582E004BFE18 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		208594181B5258BD004BFE18 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		208594191B5258BD004BFE18 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		2085941B1B5258C9004BFE18 /* RankingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingViewController.h; sourceTree = "<group>"; };
+		2085941C1B5258C9004BFE18 /* RankingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingViewController.m; sourceTree = "<group>"; };
+		2085941E1B525960004BFE18 /* fondo_republica_guatemala.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo_republica_guatemala.png; sourceTree = "<group>"; };
+		208594201B525B28004BFE18 /* MenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCell.h; sourceTree = "<group>"; };
+		208594211B525B28004BFE18 /* MenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCell.m; sourceTree = "<group>"; };
+		208594221B525B28004BFE18 /* MenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		208594251B525D66004BFE18 /* ManagerWS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagerWS.h; sourceTree = "<group>"; };
+		208594261B525D66004BFE18 /* ManagerWS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagerWS.m; sourceTree = "<group>"; };
+		208594281B525D7C004BFE18 /* RankingWS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingWS.h; sourceTree = "<group>"; };
+		208594291B525D7C004BFE18 /* RankingWS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingWS.m; sourceTree = "<group>"; };
+		2085942B1B525E1F004BFE18 /* ListadoPartidosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListadoPartidosViewController.h; sourceTree = "<group>"; };
+		2085942C1B525E1F004BFE18 /* ListadoPartidosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListadoPartidosViewController.m; sourceTree = "<group>"; };
+		2085942E1B526083004BFE18 /* CandidatoRankingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandidatoRankingCell.h; sourceTree = "<group>"; };
+		2085942F1B526083004BFE18 /* CandidatoRankingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandidatoRankingCell.m; sourceTree = "<group>"; };
+		208594301B526083004BFE18 /* CandidatoRankingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CandidatoRankingCell.xib; sourceTree = "<group>"; };
+		208594331B5260B8004BFE18 /* AvatarDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AvatarDemo.png; sourceTree = "<group>"; };
+		208594351B52665D004BFE18 /* PerfilCandidatoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfilCandidatoViewController.h; sourceTree = "<group>"; };
+		208594361B52665D004BFE18 /* PerfilCandidatoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfilCandidatoViewController.m; sourceTree = "<group>"; };
+		208594381B526A56004BFE18 /* HeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderCell.h; sourceTree = "<group>"; };
+		208594391B526A56004BFE18 /* HeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderCell.m; sourceTree = "<group>"; };
+		2085943A1B526A56004BFE18 /* HeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
+		2085943D1B526B1C004BFE18 /* dislike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dislike.png; sourceTree = "<group>"; };
+		2085943F1B526B32004BFE18 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		208594411B526C87004BFE18 /* likem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = likem.png; sourceTree = "<group>"; };
+		208594431B526D96004BFE18 /* DatosPerfilCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatosPerfilCell.h; sourceTree = "<group>"; };
+		208594441B526D96004BFE18 /* DatosPerfilCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatosPerfilCell.m; sourceTree = "<group>"; };
+		208594451B526D96004BFE18 /* DatosPerfilCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatosPerfilCell.xib; sourceTree = "<group>"; };
+		208594481B52885D004BFE18 /* InfoDetallePerfilCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoDetallePerfilCell.h; sourceTree = "<group>"; };
+		208594491B52885D004BFE18 /* InfoDetallePerfilCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoDetallePerfilCell.m; sourceTree = "<group>"; };
+		2085944A1B52885D004BFE18 /* InfoDetallePerfilCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoDetallePerfilCell.xib; sourceTree = "<group>"; };
+		2085944D1B528A00004BFE18 /* DetallePerfilViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetallePerfilViewController.h; sourceTree = "<group>"; };
+		2085944E1B528A01004BFE18 /* DetallePerfilViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetallePerfilViewController.m; sourceTree = "<group>"; };
+		208594501B528C5D004BFE18 /* DetallePerfilCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetallePerfilCell.h; sourceTree = "<group>"; };
+		208594511B528C5D004BFE18 /* DetallePerfilCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetallePerfilCell.m; sourceTree = "<group>"; };
+		208594521B528C5D004BFE18 /* DetallePerfilCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetallePerfilCell.xib; sourceTree = "<group>"; };
+		208594551B52B5F4004BFE18 /* PreguntasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreguntasViewController.h; sourceTree = "<group>"; };
+		208594561B52B5F4004BFE18 /* PreguntasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreguntasViewController.m; sourceTree = "<group>"; };
+		208594581B52B7B9004BFE18 /* PreguntasCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreguntasCell.h; sourceTree = "<group>"; };
+		208594591B52B7B9004BFE18 /* PreguntasCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreguntasCell.m; sourceTree = "<group>"; };
+		2085945A1B52B7B9004BFE18 /* PreguntasCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreguntasCell.xib; sourceTree = "<group>"; };
+		2085945D1B52B921004BFE18 /* PreguntasWS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreguntasWS.h; sourceTree = "<group>"; };
+		2085945E1B52B921004BFE18 /* PreguntasWS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreguntasWS.m; sourceTree = "<group>"; };
+		208594631B52BD66004BFE18 /* CandidaturasCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandidaturasCell.h; sourceTree = "<group>"; };
+		208594641B52BD66004BFE18 /* CandidaturasCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandidaturasCell.m; sourceTree = "<group>"; };
+		208594651B52BD66004BFE18 /* CandidaturasCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CandidaturasCell.xib; sourceTree = "<group>"; };
+		208594681B52BD92004BFE18 /* CandidaturaWS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandidaturaWS.h; sourceTree = "<group>"; };
+		208594691B52BD92004BFE18 /* CandidaturaWS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandidaturaWS.m; sourceTree = "<group>"; };
+		2085946B1B52C023004BFE18 /* CollPArtidosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollPArtidosViewController.h; sourceTree = "<group>"; };
+		2085946C1B52C023004BFE18 /* CollPArtidosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollPArtidosViewController.m; sourceTree = "<group>"; };
+		2085946E1B52C1E9004BFE18 /* PartidoCollCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartidoCollCell.h; sourceTree = "<group>"; };
+		2085946F1B52C1E9004BFE18 /* PartidoCollCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PartidoCollCell.m; sourceTree = "<group>"; };
+		208594701B52C1E9004BFE18 /* PartidoCollCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PartidoCollCell.xib; sourceTree = "<group>"; };
+		208594731B52C52B004BFE18 /* PartidosWS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartidosWS.h; sourceTree = "<group>"; };
+		208594741B52C52B004BFE18 /* PartidosWS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PartidosWS.m; sourceTree = "<group>"; };
+		208594761B52EE95004BFE18 /* OrganizacionesWS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrganizacionesWS.h; sourceTree = "<group>"; };
+		208594771B52EE95004BFE18 /* OrganizacionesWS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrganizacionesWS.m; sourceTree = "<group>"; };
+		208594791B52F51E004BFE18 /* ListaCandidatosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaCandidatosViewController.h; sourceTree = "<group>"; };
+		2085947A1B52F51E004BFE18 /* ListaCandidatosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaCandidatosViewController.m; sourceTree = "<group>"; };
+		66F84D8819D6452D034089D7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EBA58B2F02E4499C60CDA8AC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +178,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13FBB7B2A0CDEFFFE888E0BD /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +198,8 @@
 				208593CE1B524D6E004BFE18 /* Ranking Publico */,
 				208593E81B524D6E004BFE18 /* Ranking PublicoTests */,
 				208593CD1B524D6E004BFE18 /* Products */,
+				C18CDB12A2942855E05FFB7F /* Pods */,
+				A29356A7DA368A8E0C41B246 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +215,11 @@
 		208593CE1B524D6E004BFE18 /* Ranking Publico */ = {
 			isa = PBXGroup;
 			children = (
+				208593F51B52545E004BFE18 /* Controladores */,
+				208593F61B52545E004BFE18 /* Imagenes */,
+				208593F71B52545E004BFE18 /* Otros */,
+				208593F81B52545E004BFE18 /* Sonido */,
+				208593F91B52545E004BFE18 /* WS */,
 				208593D31B524D6E004BFE18 /* AppDelegate.h */,
 				208593D41B524D6E004BFE18 /* AppDelegate.m */,
 				208593D61B524D6E004BFE18 /* ViewController.h */,
@@ -119,6 +258,134 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		208593F51B52545E004BFE18 /* Controladores */ = {
+			isa = PBXGroup;
+			children = (
+				208594251B525D66004BFE18 /* ManagerWS.h */,
+				208594261B525D66004BFE18 /* ManagerWS.m */,
+				208594201B525B28004BFE18 /* MenuCell.h */,
+				208594211B525B28004BFE18 /* MenuCell.m */,
+				208594221B525B28004BFE18 /* MenuCell.xib */,
+				208594141B52582E004BFE18 /* Constantes.h */,
+				208594151B52582E004BFE18 /* HomeViewController.h */,
+				208594161B52582E004BFE18 /* HomeViewController.m */,
+				208594181B5258BD004BFE18 /* MenuViewController.h */,
+				208594191B5258BD004BFE18 /* MenuViewController.m */,
+				2085941B1B5258C9004BFE18 /* RankingViewController.h */,
+				2085941C1B5258C9004BFE18 /* RankingViewController.m */,
+				208594281B525D7C004BFE18 /* RankingWS.h */,
+				208594291B525D7C004BFE18 /* RankingWS.m */,
+				2085942B1B525E1F004BFE18 /* ListadoPartidosViewController.h */,
+				2085942C1B525E1F004BFE18 /* ListadoPartidosViewController.m */,
+				2085942E1B526083004BFE18 /* CandidatoRankingCell.h */,
+				2085942F1B526083004BFE18 /* CandidatoRankingCell.m */,
+				208594301B526083004BFE18 /* CandidatoRankingCell.xib */,
+				208594351B52665D004BFE18 /* PerfilCandidatoViewController.h */,
+				208594361B52665D004BFE18 /* PerfilCandidatoViewController.m */,
+				208594381B526A56004BFE18 /* HeaderCell.h */,
+				208594391B526A56004BFE18 /* HeaderCell.m */,
+				2085943A1B526A56004BFE18 /* HeaderCell.xib */,
+				208594431B526D96004BFE18 /* DatosPerfilCell.h */,
+				208594441B526D96004BFE18 /* DatosPerfilCell.m */,
+				208594451B526D96004BFE18 /* DatosPerfilCell.xib */,
+				208594481B52885D004BFE18 /* InfoDetallePerfilCell.h */,
+				208594491B52885D004BFE18 /* InfoDetallePerfilCell.m */,
+				2085944A1B52885D004BFE18 /* InfoDetallePerfilCell.xib */,
+				2085944D1B528A00004BFE18 /* DetallePerfilViewController.h */,
+				2085944E1B528A01004BFE18 /* DetallePerfilViewController.m */,
+				208594501B528C5D004BFE18 /* DetallePerfilCell.h */,
+				208594511B528C5D004BFE18 /* DetallePerfilCell.m */,
+				208594521B528C5D004BFE18 /* DetallePerfilCell.xib */,
+				208594551B52B5F4004BFE18 /* PreguntasViewController.h */,
+				208594561B52B5F4004BFE18 /* PreguntasViewController.m */,
+				208594581B52B7B9004BFE18 /* PreguntasCell.h */,
+				208594591B52B7B9004BFE18 /* PreguntasCell.m */,
+				2085945A1B52B7B9004BFE18 /* PreguntasCell.xib */,
+				2085945D1B52B921004BFE18 /* PreguntasWS.h */,
+				2085945E1B52B921004BFE18 /* PreguntasWS.m */,
+				208594631B52BD66004BFE18 /* CandidaturasCell.h */,
+				208594641B52BD66004BFE18 /* CandidaturasCell.m */,
+				208594651B52BD66004BFE18 /* CandidaturasCell.xib */,
+				208594681B52BD92004BFE18 /* CandidaturaWS.h */,
+				208594691B52BD92004BFE18 /* CandidaturaWS.m */,
+				2085946B1B52C023004BFE18 /* CollPArtidosViewController.h */,
+				2085946C1B52C023004BFE18 /* CollPArtidosViewController.m */,
+				2085946E1B52C1E9004BFE18 /* PartidoCollCell.h */,
+				2085946F1B52C1E9004BFE18 /* PartidoCollCell.m */,
+				208594701B52C1E9004BFE18 /* PartidoCollCell.xib */,
+				208594731B52C52B004BFE18 /* PartidosWS.h */,
+				208594741B52C52B004BFE18 /* PartidosWS.m */,
+				208594761B52EE95004BFE18 /* OrganizacionesWS.h */,
+				208594771B52EE95004BFE18 /* OrganizacionesWS.m */,
+				208594791B52F51E004BFE18 /* ListaCandidatosViewController.h */,
+				2085947A1B52F51E004BFE18 /* ListaCandidatosViewController.m */,
+			);
+			path = Controladores;
+			sourceTree = "<group>";
+		};
+		208593F61B52545E004BFE18 /* Imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				208594411B526C87004BFE18 /* likem.png */,
+				2085943F1B526B32004BFE18 /* like.png */,
+				2085943D1B526B1C004BFE18 /* dislike.png */,
+				208594331B5260B8004BFE18 /* AvatarDemo.png */,
+				2085941E1B525960004BFE18 /* fondo_republica_guatemala.png */,
+				208594121B525743004BFE18 /* logo.png */,
+				208594101B5256C0004BFE18 /* LogoFull.png */,
+				208593FA1B525484004BFE18 /* Icon-29.png */,
+				208593FB1B525484004BFE18 /* Icon-29@2x.png */,
+				208593FC1B525484004BFE18 /* Icon-29@3x.png */,
+				208593FD1B525484004BFE18 /* Icon-40.png */,
+				208593FE1B525484004BFE18 /* Icon-40@2x.png */,
+				208593FF1B525484004BFE18 /* Icon-40@3x.png */,
+				208594001B525484004BFE18 /* Icon-60@2x.png */,
+				208594011B525484004BFE18 /* Icon-60@3x.png */,
+				208594021B525484004BFE18 /* Icon-76.png */,
+				208594031B525484004BFE18 /* Icon-76@2x.png */,
+				208594041B525484004BFE18 /* iTunesArtwork@2x.png */,
+			);
+			path = Imagenes;
+			sourceTree = "<group>";
+		};
+		208593F71B52545E004BFE18 /* Otros */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Otros;
+			sourceTree = "<group>";
+		};
+		208593F81B52545E004BFE18 /* Sonido */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sonido;
+			sourceTree = "<group>";
+		};
+		208593F91B52545E004BFE18 /* WS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WS;
+			sourceTree = "<group>";
+		};
+		A29356A7DA368A8E0C41B246 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				140BF146E0A609CFDC637B95 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C18CDB12A2942855E05FFB7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66F84D8819D6452D034089D7 /* Pods.debug.xcconfig */,
+				EBA58B2F02E4499C60CDA8AC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +393,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 208593EF1B524D6E004BFE18 /* Build configuration list for PBXNativeTarget "Ranking Publico" */;
 			buildPhases = (
+				BF7F418F3CFAD0C69DC5AF9C /* Check Pods Manifest.lock */,
 				208593C81B524D6E004BFE18 /* Sources */,
 				208593C91B524D6E004BFE18 /* Frameworks */,
 				208593CA1B524D6E004BFE18 /* Resources */,
+				263B4E1E060B6F5742E15E03 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,8 +469,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				208593DB1B524D6E004BFE18 /* Main.storyboard in Resources */,
+				2085944C1B52885D004BFE18 /* InfoDetallePerfilCell.xib in Resources */,
+				208594341B5260B8004BFE18 /* AvatarDemo.png in Resources */,
+				2085940B1B525484004BFE18 /* Icon-60@2x.png in Resources */,
+				208594671B52BD66004BFE18 /* CandidaturasCell.xib in Resources */,
+				208594471B526D96004BFE18 /* DatosPerfilCell.xib in Resources */,
 				208593E01B524D6E004BFE18 /* LaunchScreen.xib in Resources */,
+				2085940E1B525484004BFE18 /* Icon-76@2x.png in Resources */,
+				2085945C1B52B7B9004BFE18 /* PreguntasCell.xib in Resources */,
 				208593DD1B524D6E004BFE18 /* Images.xcassets in Resources */,
+				208594081B525484004BFE18 /* Icon-40.png in Resources */,
+				2085940D1B525484004BFE18 /* Icon-76.png in Resources */,
+				2085940A1B525484004BFE18 /* Icon-40@3x.png in Resources */,
+				208594061B525484004BFE18 /* Icon-29@2x.png in Resources */,
+				2085940F1B525484004BFE18 /* iTunesArtwork@2x.png in Resources */,
+				2085943E1B526B1C004BFE18 /* dislike.png in Resources */,
+				208594091B525484004BFE18 /* Icon-40@2x.png in Resources */,
+				208594051B525484004BFE18 /* Icon-29.png in Resources */,
+				208594421B526C87004BFE18 /* likem.png in Resources */,
+				208594241B525B28004BFE18 /* MenuCell.xib in Resources */,
+				208594131B525743004BFE18 /* logo.png in Resources */,
+				208594071B525484004BFE18 /* Icon-29@3x.png in Resources */,
+				2085943C1B526A56004BFE18 /* HeaderCell.xib in Resources */,
+				2085940C1B525484004BFE18 /* Icon-60@3x.png in Resources */,
+				208594111B5256C0004BFE18 /* LogoFull.png in Resources */,
+				2085941F1B525960004BFE18 /* fondo_republica_guatemala.png in Resources */,
+				208594401B526B32004BFE18 /* like.png in Resources */,
+				208594321B526083004BFE18 /* CandidatoRankingCell.xib in Resources */,
+				208594541B528C5D004BFE18 /* DetallePerfilCell.xib in Resources */,
+				208594721B52C1E9004BFE18 /* PartidoCollCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +510,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		263B4E1E060B6F5742E15E03 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF7F418F3CFAD0C69DC5AF9C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		208593C81B524D6E004BFE18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				208593D81B524D6E004BFE18 /* ViewController.m in Sources */,
+				208594231B525B28004BFE18 /* MenuCell.m in Sources */,
+				2085946A1B52BD92004BFE18 /* CandidaturaWS.m in Sources */,
 				208593D51B524D6E004BFE18 /* AppDelegate.m in Sources */,
+				2085947B1B52F51E004BFE18 /* ListaCandidatosViewController.m in Sources */,
+				208594751B52C52B004BFE18 /* PartidosWS.m in Sources */,
+				208594271B525D66004BFE18 /* ManagerWS.m in Sources */,
+				2085944F1B528A01004BFE18 /* DetallePerfilViewController.m in Sources */,
 				208593D21B524D6E004BFE18 /* main.m in Sources */,
+				208594171B52582E004BFE18 /* HomeViewController.m in Sources */,
+				208594531B528C5D004BFE18 /* DetallePerfilCell.m in Sources */,
+				208594711B52C1E9004BFE18 /* PartidoCollCell.m in Sources */,
+				2085941A1B5258BD004BFE18 /* MenuViewController.m in Sources */,
+				2085945B1B52B7B9004BFE18 /* PreguntasCell.m in Sources */,
+				208594781B52EE95004BFE18 /* OrganizacionesWS.m in Sources */,
+				208594461B526D96004BFE18 /* DatosPerfilCell.m in Sources */,
+				2085945F1B52B921004BFE18 /* PreguntasWS.m in Sources */,
+				2085946D1B52C023004BFE18 /* CollPArtidosViewController.m in Sources */,
+				208594311B526083004BFE18 /* CandidatoRankingCell.m in Sources */,
+				2085941D1B5258C9004BFE18 /* RankingViewController.m in Sources */,
+				208594571B52B5F4004BFE18 /* PreguntasViewController.m in Sources */,
+				2085944B1B52885D004BFE18 /* InfoDetallePerfilCell.m in Sources */,
+				2085942A1B525D7C004BFE18 /* RankingWS.m in Sources */,
+				2085943B1B526A56004BFE18 /* HeaderCell.m in Sources */,
+				208594371B52665D004BFE18 /* PerfilCandidatoViewController.m in Sources */,
+				208594661B52BD66004BFE18 /* CandidaturasCell.m in Sources */,
+				2085942D1B525E1F004BFE18 /* ListadoPartidosViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +698,7 @@
 		};
 		208593F01B524D6E004BFE18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66F84D8819D6452D034089D7 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Ranking Publico/Info.plist";
@@ -355,6 +709,7 @@
 		};
 		208593F11B524D6E004BFE18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBA58B2F02E4499C60CDA8AC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Ranking Publico/Info.plist";
@@ -416,6 +771,7 @@
 				208593F11B524D6E004BFE18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		208593F21B524D6E004BFE18 /* Build configuration list for PBXNativeTarget "Ranking PublicoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +780,7 @@
 				208593F41B524D6E004BFE18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

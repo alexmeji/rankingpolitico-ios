@@ -1,0 +1,51 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Canvas (0.1.2)
+  - HexColors (2.3.0)
+  - JASidePanels (1.3.2)
+  - MBProgressHUD (0.9.1)
+  - ODRefreshControl (1.1.0)
+  - SimpleAudioPlayer (0.1.2)
+  - TSMessages (0.9.12):
+    - HexColors
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - Canvas
+  - JASidePanels (~> 1.3.2)
+  - MBProgressHUD (~> 0.8)
+  - ODRefreshControl (~> 1.1.0)
+  - SimpleAudioPlayer
+  - TSMessages
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  Canvas: eb861e3b555d032648146c8ffda1a5dea40059ca
+  HexColors: 6ad3947c3447a055a3aa8efa859def096351fe5f
+  JASidePanels: c8f5b130e18d51ee3de988d1c1fad2f88e0b0d21
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  ODRefreshControl: 4c4c413bf70d2ea0c02a28ac0a0b3b4bf4dbfdea
+  SimpleAudioPlayer: c14dd9c85c5bbf058b0529292789950cc67eb61b
+  TSMessages: 2a52642128d7ab15b46930c810b9c9403a2b58f3
+
+COCOAPODS: 0.37.2
